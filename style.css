@@ -1,0 +1,28 @@
+#box{
+    background-color: rgb(209, 161, 103);
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(25, 124, 124);
+}
+#box.show{
+    visibility: visible;
+}
+
+.icon:hover{
+    
+    background-color: red;
+    border-radius:  5px;
+    
+}
+.icon{
+    position: relative;
+    left: 230px;
+}
+
+button{
+    border-radius: 15%;
+}
